@@ -1,0 +1,24 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#cffafe" />
+      <stop offset="100%" stop-color="#2c7a7b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="40" ry="40" fill="url(#bg5)" />
+  <rect x="140" y="130" width="520" height="340" rx="34" ry="34" fill="#ffffff" opacity="0.92" />
+  <rect x="190" y="190" width="420" height="32" rx="16" fill="#2c7a7b" />
+  <rect x="190" y="240" width="420" height="56" rx="16" fill="#e6fffa" />
+  <rect x="230" y="260" width="140" height="18" rx="9" fill="#2c7a7b" />
+  <rect x="230" y="298" width="240" height="18" rx="9" fill="#38b2ac" />
+  <rect x="190" y="330" width="180" height="22" rx="11" fill="#e6fffa" />
+  <rect x="190" y="370" width="320" height="22" rx="11" fill="#e6fffa" />
+  <rect x="430" y="330" width="120" height="22" rx="11" fill="#38b2ac" />
+  <circle cx="540" cy="240" r="24" fill="#ffffff" />
+  <circle cx="570" cy="245" r="10" fill="#2c7a7b" />
+  <circle cx="450" cy="215" r="12" fill="#2c7a7b" />
+  <path d="M240 420h120v18H240z" fill="#2c7a7b" opacity="0.18" />
+  <path d="M390 420h120v18H390z" fill="#2c7a7b" opacity="0.18" />
+  <text x="170" y="115" font-family="Poppins, sans-serif" font-size="42" font-weight="700" fill="#0c4a4a">Portfolio</text>
+  <text x="170" y="155" font-family="Poppins, sans-serif" font-size="34" fill="#0c4a4a">Website</text>
+</svg>

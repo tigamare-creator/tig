@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tigist Amare | Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#hero" class="nav-logo">Tigist Amare</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="https://github.com/tigamare-creator" target="_blank" class="nav-link github-nav" aria-label="GitHub Profile"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <img src="profile.jpg" alt="Tigist Amare Profile Picture" class="profile-img">
+                <h1>Tigist Amare</h1>
+                <p class="hero-title">Full-Stack Developer | IT Student</p>
+                <p class="hero-tagline">"Building clean and responsive web experiences"</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn scroll-to-projects">View Projects</a>
+                    <a href="cv.PDF" download="Tigist_Amare_CV.pdf" class="btn secondary-btn">Download CV</a>
+                    <a href="cv.PDF" target="_blank" class="btn secondary-btn">View CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I am a passionate IT student with a strong focus on full-stack web development. 
+                    My journey in technology is driven by a desire to create intuitive, user-friendly, and visually appealing web applications. 
+                    I thrive on learning new technologies and solving complex problems, constantly seeking opportunities to expand my skill set and contribute to innovative projects. 
+                    I believe in the power of clean code and responsive design to deliver exceptional digital experiences.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding bg-cream">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <h3>Frontend</h3>
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code skill-icon"></i>
+                        <h3>Programming</h3>
+                        <p>Python, Java, C#, C++</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h3>Database</h3>
+                        <p>SQL, SQLite, and other database technologies</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h3>Tools & Concepts</h3>
+                        <p>Git, Responsive Design, UI/UX Principles</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="images/smart-recommendation.svg" alt="Smart Recommendations System" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <h3>Smart Recommendations System</h3>
+                            <p>An intelligent system providing personalized recommendations for movies, books, and food items based on user preferences.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Java</span>
+                                <span>Data</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://tigamare-creator.github.io/recommendations-system" class="btn secondary-btn" target="_blank">View Demo</a>
+                                <a href="https://github.com/tigamare-creator/recommendations-system" class="btn secondary-btn" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80" alt="Auto Exam System" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <h3>Auto Exam System</h3>
+                            <p>A comprehensive examination platform that automates question shuffling, grading for objective tests, and generates detailed performance reports for students and educators.</p>
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS</span>
+                                <span>LocalStorage</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/tigamare-creator/auto-exam" class="btn secondary-btn" target="_blank">View Code</a>
+                                <a href="https://tigamare-creator.github.io/auto-exam" class="btn secondary-btn" target="_blank">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Cafe Management System" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <h3>Cafe Management System</h3>
+                            <p>A web-based application designed to streamline operations for a cafe, including order management, menu display, and basic inventory tracking.</p>
+                            <div class="project-tags">
+                                <span>Java</span>
+                                <span>SQL</span>
+                                <span>C#</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://tigamare-creator.github.io/cafe-management-system" class="btn secondary-btn" target="_blank">View Demo</a>
+                                <a href="https://github.com/tigamare-creator/cafe-management-system" class="btn secondary-btn" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=800&q=80" alt="Personal Portfolio Website" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>This very website! Built to showcase my skills, projects, and provide a professional online presence. Features responsive design and smooth navigation.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://tigamare-creator.github.io" class="btn secondary-btn" target="_blank">View Demo</a>
+                                <a href="https://github.com/tigamare-creator/tigamare-creator.github.io" class="btn secondary-btn" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img-container">
+                            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80" alt="Catch Game" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <h3>Catch Game</h3>
+                            <p>A fun and simple interactive game built to demonstrate logic handling and user interaction in web development.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Logic</span>
+                                <span>Game Dev</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://tigamare-creator.github.io/catch-game" class="btn secondary-btn" target="_blank">View Demo</a>
+                                <a href="https://github.com/tigamare-creator/catch-game" class="btn secondary-btn" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Education Section -->
+        <section id="experience" class="experience-section section-padding bg-cream">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-item">
+                    <h3>IT Student</h3>
+                    <p><strong>Bahir Dar University</strong> | 2023 – 2026</p>
+                    <p>Currently pursuing a degree in Information Technology at Bahir Dar University. My studies focus on software development, web technologies, and database management, with a commitment to mastering both frontend and backend systems.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="contact-intro">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                <div class="contact-info-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <p>Phone: <a href="tel:+251963368387">+251 963 368 387</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <p>Email: <a href="mailto:tgamare35@gmail.com">tgamare35@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin contact-icon"></i>
+                        <p>LinkedIn: <a href="https://linkedin.com/in/tgamare" target="_blank">linkedin.com/in/tgamare</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github contact-icon"></i>
+                        <p>GitHub: <a href="https://github.com/tigamare-creator" target="_blank">github.com/tigamare-creator</a></p>
+                    </div>
+                </div>
+                
+                <form action="https://formspree.io/f/tgamare35@gmail.com" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-socials">
+                <a href="https://github.com/tigamare-creator" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/tgamare" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; <span id="current-year"></span> Tigist Amare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
